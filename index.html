@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>shota nakamura portfolio</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="#">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./image/favicon.ico">
+		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.6.0.js"
+			integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+		<script src="./js/script.js"></script>
+	</head>
+
+	<body>
+		<header id="header">
+			<div class="header">
+				<h1 class="siteTitle">
+					<a href="index.html"><img src="./image/icon.png" alt=""></a>
+				</h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="#profile">PROFILE</a></li>
+						<li><a href="#skill">SKILL</a></li>
+						<li><a href="#works">WORKS</a></li>
+						<!-- <li><a href="#contact">CONTACT</a></li> -->
+					</ul>
+				</nav>
+			</div>
+			<div class="toggleBtn">
+				<span></span>
+				<span></span>
+			</div>
+			<div id="mask"></div>
+		</header>
+
+		<main id="main">
+			<div class="mainVisual">
+				<div class="mainVisual__body">
+					<h1 class="mainVisual__ttl">take a step</h1>
+					<p class="mainVisual__txt">shota nakamura portfolio</p>
+				</div>
+				<figure class="mainVisual__ph">
+					<picture>
+						<source media="(max-width:609px)" srcset="./image/main.jpg">
+						<source media="(min-width:610px)" srcset="./image/main_sp.jpg">
+						<img src="./image/main.jpg" alt="">
+					</picture>
+				</figure>
+			</div>
+			<section id="profile" class="wrapper">
+				<div class="profile__txt">
+					<h2><img src="./image/tape.png" alt=""><span>Profile</span></h2>
+					<dl>
+						<dt>生まれ年</dt>
+						<dd>約1週間しかない昭和64年生まれ</dd>
+						<dt>過去</dt>
+						<dd>
+							中学時代の陸上部（3000m）でメンタルと走力をアップ<br>
+							高校に陸上部が無く、走力を活かしてバレー部でボールを拾いまくる<br>
+						</dd>
+						<dt>現在</dt>
+						<dd>
+							印刷会社時代にあまりできなかった画像編集をもっと深堀りすべく、Photoshopを再度勉強中<br>
+							学生時代に購入したnikon D3100を数年ぶりに引っ張り出し、週末は散歩がてら素材集めへ
+						</dd>
+						<dt>職歴</dt>
+						<dd>
+							邦楽や邦画が好きで、ものづくりがしたくて専門学校へ<br>
+							専門学校で雑誌編集について学び、１年間編集プロダクションで雑誌編集に携わった後、転職して印刷の会社へ<br>
+							様々な印刷商品に関わる内に、オンデマンド印刷に特化したイラレ・フォトショ技術を身につける<br>
+							社内の人がMBAやjava scriptで自動化などをしているのを見て、プログラミングに興味を持ち、約８年勤めた印刷会社を退職<br>
+							現在はフロントエンドエンジニアを目指して勉強中<br>
+						</dd>
+						<dt>趣味</dt>
+						<dd>
+							ポケモン好き<br>
+							好きなポケモンはポッチャマ
+						</dd>
+					</dl>
+				</div>
+				<div class="profile__ph">
+					<img src="./image/profile_shota.jpg" alt="">
+					<h3>shota nakamura</h3>
+					<p>
+						1989年1月6日生まれ<br>
+						神奈川県横浜市出身<br>
+						現在は埼玉県在住
+					</p>
+				</div>
+			</section>
+			<section id="skill" class="wrapper">
+				<h2 class="secTitle">SKILL</h2>
+				<div class="skill__category">
+					<h3>コーディング</h3>
+						<ul class="skill__txt">
+							<li>HTML/CSSの基本知識、基本コーディングは学習済み</li>
+							<li>簡単なWEBサイトを作成できる</li>
+							<li>CSSアニメーションを使用して、動きのあるページも作成できる</li>
+						</ul>
+						<ul>
+							<li>
+								<p>HTML</p>
+								<div class="bar">
+									<p class="bar__html"></p>
+								</div>
+							</li>
+							<li>
+								<p>CSS</p>
+								<div class="bar">
+									<p class="bar__css"></p>
+								</div>
+							</li>
+						</ul>
+				</div>
+				<div class="skill__category">
+					<h3>フロントエンド</h3>
+						<ul class="skill__txt">
+							<li>JavaScriptの基本文法は学習済み</li>
+							<li>JavaScript（jQuery）を使用して、ハンバーガーメニューやスクロールの機能が実装できる</li>
+							<li>DOMを活用して、JavaScriptによってHTML要素を変更できる</li>
+						</ul>
+					<ul>
+						<li>
+							<p>JavaScript</p>
+							<div class="bar">
+								<p class="bar__js"></p>
+							</div>
+						</li>
+						<li>
+							<p>jquery</p>
+							<div class="bar">
+								<p class="bar__jquery"></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="skill__category">
+					<h3>デザイン</h3>
+						<ul class="skill__txt">
+							<li>前職でも使用していた為、基本操作は問題なくできる</li>
+							<li>Photoshopのレタッチや加工も書籍などを参照しながら、おおよそ作業できる</li>
+						</ul>
+					<ul>
+						<li>
+							<p>adobe Illustrator</p>
+							<div class="bar">
+								<p class="bar__ai"></p>
+							</div>
+						</li>
+						<li>
+							<p>adobe Photoshop</p>
+							<div class="bar">
+								<p class="bar__ps"></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="works" class="wrapper">
+				<h2 class="secTitle">WORKS</h2>
+				<p>作成中……</p>
+			</section>
+		</main>
+		<footer id="footer">
+			<ul>
+				<li><a href="#profile">PROFILE</a></li>
+				<li><a href="#skill">SKILL</a></li>
+				<li><a href="#works">WORKS</a></li>
+				<!-- <li><a href="#contact">CONTACT</a></li> -->
+			</ul>
+			<p>&copy; 2020 shota nakamura</p>
+		</footer>
+	</body>
+
+</html>
